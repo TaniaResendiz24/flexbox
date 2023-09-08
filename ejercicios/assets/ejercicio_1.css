@@ -20,14 +20,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*height: 20vh;*/
 }
-.box.box1 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 98%;
-    border: 1px solid purple;
-    height: 20vh;
-    justify-content: center;
-    /*align-items: center;*/
+
+.content-wrapper .box.box1 {
+    width: 100%;
+    border: 5px solid purple;
 }
