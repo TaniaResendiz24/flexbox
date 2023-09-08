@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    height: 99vh;
     min-width: 400px;
     gap: 24px;
 }
@@ -20,14 +20,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    /*height: 20vh;*/
 }
 .box.box1 {
     display: flex;
     flex-wrap: wrap;
-    width: 99%;
+    width: 98%;
     border: 1px solid purple;
     height: 20vh;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
