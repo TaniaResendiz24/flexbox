@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-wraper{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    min-width: 400px;
+    gap:24px;
+    
+}
+.content-wraper .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    background-color: #fff;
+    width: 47%;
+    row-gap:99px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
