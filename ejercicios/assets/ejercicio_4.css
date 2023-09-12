@@ -18,12 +18,10 @@
 
 .content-wrapper .fila { 
     border: 1px solid #000;
-
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
-
     width: 100%;
 }
 
