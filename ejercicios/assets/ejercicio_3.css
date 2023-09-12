@@ -1,66 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .content-wrapper {
+    border: 2px solid #000;
+    background-color: black;
+
     display: flex;
-    border: 1px solid #000;
     flex-wrap: wrap;
-    min-width: 400px;
-    width: 95vw;
-    height: 92vh;
-    background-color: #000;
+    gap: 24px;
+
     padding: 24px;
-    gap: 24px;
-  
+    height: 100vh;
+    min-width: 320px;
 }
 
-.fila {
+.content-wrapper .fila { 
+    border: 1px solid #000;
+
     display: flex;
-    width: 99%;
-    justify-content: center;
-    /* align-items: center; */
-    /*margin-left: 5%;*/
-    /*margin-right: 4%;*/
-    /*margin-top: 4%;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 24px;
-    min-width: 200px;
+
+    width: 100%;
 }
 
-.box1 {
-    display: flex;
-    border: 2px solid#000;
+.content-wrapper .fila .box1 {
+    border: 1px solid #000;
     background-color: aqua;
-    width: 29%;
-    height: 15vh;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 75px;
-    /*min-width: 300px;*/
 
+    width: 25%;
+    min-width: 320px;
 }
 
-.box2 {
-    border: 2px solid#000;
+.content-wrapper .fila .box2 { 
+    border: 1px solid #000;
     background-color: aqua;
-    width: 29%;
-    height: 15vh;
-    /*min-width: 310px;*/
+
+    width: 31%;
+    min-width: 320px;
 }
 
-.box3 {
-    border: 2px solid #000;
+.content-wrapper .fila .box3 {
+    border: 1px solid #000;
     background-color: aqua;
-    width: 29%;
-    height: 15vh;
-    /*min-width: 310px;*/
+
+    width: 31%;
+    min-width: 320px;
 }
-.box4 {
-    border: 2px solid #000;
+
+.content-wrapper .fila .box4 {
+    border: 1px solid #000;
     background-color: aqua;
-    width: 95%;
-    height: 15vh;
-    /*min-width: 100px;*/
+
+    width: 100%;
+    min-width: 320px;
 }
