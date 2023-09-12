@@ -1,77 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-
 .content-wrapper {
-    display: flex;
-    border: 1px solid #000;
-    /*display: ;*/
-    flex-wrap: wrap;
-    min-width: 400px;
-    width: 99vw;
-    height: 99vh;
+    border: 2px solid #000;
     background-color: black;
-    padding: 24px;
+
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 
+    padding: 24px;
+    height: 100vh;
+    min-width: 320px;
 }
 
-.fila {
+.content-wrapper .fila { 
+    border: 1px solid #000;
+
     display: flex;
-    width: 90%;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: center; */
-    /*margin-left: 5%;*/
-    /*margin-right: 2%;*/
-    /*margin-top: 4%;*/
-    padding: 24px;   
     gap: 24px;
 
+    width: 100%;
 }
 
-.fila4 {
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    justify-content: center align-items:center;
-    padding: 24px;
-    margin-left: 4%;
-    gap: 24px;
-}
-
-.box1 {
-    display: flex;
-    border: 2px solid#000;
+.content-wrapper .fila .box1 {
+    border: 1px solid #000;
     background-color: aqua;
-    width: 30%;
-    height: 15vh;
+
+    width: 31%;
+    min-width: 320px;
+}
+
+.content-wrapper .fila .box2 { 
+    border: 1px solid #000;
+    background-color: aqua;
+
+    width: 31%;
+    min-width: 320px;
+}
+
+.content-wrapper .fila .box3 {
+    border: 1px solid #000;
+    background-color: aqua;
+
+    width: 31%;
+    min-width: 320px;
+}
+
+.content-wrapper .fila .box4 {
+    border: 1px solid #000;
+    background-color: aqua;
+   
+    display: flex;
+    width: 31%;
     justify-content: center;
     align-items: center;
-    color: black;
-    font-size: 75px;
-
-}
-
-.box2 {
-    border: 2px solid#000;
-    background-color: aqua;
-    width: 30%;
-    height: 15vh;
-}
-
-.box3 {
-    border: 2px solid #000;
-    background-color: aqua;
-    width: 30%;
-    height: 15vh;
-}
- .box4 {
-   
-    border: 2px solid #000;
-    background-color: aqua;
-    width: 33%;
-    height: 15vh;
-
 }
